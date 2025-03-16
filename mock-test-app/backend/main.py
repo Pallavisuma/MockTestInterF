@@ -8,11 +8,9 @@ app = FastAPI()
 
 
 origins = [
-<<<<<<< HEAD:mock-test-app/backend/main.py
+
     "*",  # Allows requests from any origin (change if needed)
-=======
- '*' # Update this if you're using a different port for frontend
->>>>>>> a203801 (lastCommit):mock-test-app/main.py
+
 ]
 
 app.add_middleware(

@@ -1,3 +1,4 @@
 fastapi
 uvicorn
 pymupdf  # Since you're using fitz (PyMuPDF)
+python-multipart
